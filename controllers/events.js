@@ -10,7 +10,7 @@ const getEventos = ( req, res = response ) => {
     })
 }
 
-const crearEventos = ( req, res = response ) => {
+const crearEvento = ( req, res = response ) => {
 
 
     return res.status(200).json({
@@ -19,7 +19,7 @@ const crearEventos = ( req, res = response ) => {
     })
 }
 
-const actualizarEventos = ( req, res = response, id ) => {
+const actualizarEvento = ( req, res = response ) => {
 
 
     return res.status(200).json({
@@ -28,7 +28,7 @@ const actualizarEventos = ( req, res = response, id ) => {
     })
 }
 
-const eliminarEventos = ( req, res = response, id ) => {
+const eliminarEvento = ( req, res = response ) => {
 
 
     return res.status(200).json({
@@ -39,7 +39,7 @@ const eliminarEventos = ( req, res = response, id ) => {
 
 module.exports = {
     getEventos,
-    crearEventos,
-    actualizarEventos,
-    eliminarEventos
+    crearEvento,
+    actualizarEvento,
+    eliminarEvento
 }
